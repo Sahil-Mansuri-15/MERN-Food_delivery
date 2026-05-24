@@ -1,39 +1,12 @@
 <div align="center">
 
-# 🍅 TOMATO
-### *Food Delivery, Reimagined*
-
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Site-FF6B35?style=for-the-badge)](https://mern-food-delivery-two.vercel.app)
-[![Admin Panel](https://img.shields.io/badge/⚙️_Admin_Panel-Visit-1a1a2e?style=for-the-badge)](https://mern-food-delivery-ysyg.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/Sahil-Mansuri-15/MERN-Food_delivery)
-
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
-![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=flat-square&logo=cloudinary&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-
-<br/>
-
-![Tomato Banner](https://res.cloudinary.com/demo/image/upload/w_900,h_300,c_fill,g_auto/food/banner.jpg)
 
 > A production-ready full-stack food delivery platform with real-time order management, secure payments, and a powerful admin dashboard.
 
 </div>
 
 ---
-
-## 📸 Screenshots
-
-<div align="center">
-
-| Homepage | Menu | Cart | Orders |
-|----------|------|------|--------|
-| Browse categories & dishes | Filter by category | Manage cart items | Track order status |
-
-</div>
 
 ---
 
