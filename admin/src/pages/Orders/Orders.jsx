@@ -7,7 +7,7 @@ import axios from 'axios';
 import { assets } from '../../assets/assets';
 
 const Orders = () => {
-  const url = 'http://localhost:4000';
+  const url = import.meta.env.VITE_BACKEND_URL;
   const [orders, setOrders] = useState([]);
 
   const fetchAllOrders = async () => {
