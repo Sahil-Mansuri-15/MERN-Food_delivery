@@ -41,13 +41,13 @@ const Orders = () => {
       <div className="order-list">
         {orders.map((order, index) => {
           return (
-            // ← return add kiya
+
             <div className="order-item" key={index}>
               <img src={assets.parcel_icon} alt="" />
               <div>
                 <p className="order-item-food">
                   {order.items.map((item, index) => {
-                    // ← parameters fix kiye
+                    
                     if (index === order.items.length - 1) {
                       return item.name + ' x ' + item.quantity;
                     } else {

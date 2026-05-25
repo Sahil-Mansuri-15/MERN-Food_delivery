@@ -2,14 +2,14 @@ import foodModel from '../models/foodModel.js';
 
 // add food item
 const addFood = async (req, res) => {
-  let image_url = req.file.path; // ← Cloudinary puri URL deta hai
+  let image_url = req.file.path; 
 
   const food = new foodModel({
     name: req.body.name,
     description: req.body.description,
     price: req.body.price,
     category: req.body.category,
-    image: image_url, // ← ab puri URL save hogi
+    image: image_url,
   });
   try {
     await food.save();
@@ -34,7 +34,6 @@ const listFood = async (req, res) => {
 // remove food item
 const removeFood = async (req, res) => {
   try {
-    // fs.unlink wali line REMOVE ki — ab local file nahi hai
     await foodModel.findByIdAndDelete(req.body._id);
     res.json({ success: true, message: 'Food Removed' });
   } catch (error) {
